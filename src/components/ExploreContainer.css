@@ -1,24 +1,35 @@
-#container {
-  text-align: center;
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
-}
+.c1{
+    font-size: 50px;
+    color: red;
+    font-weight:400px;
+    padding-left:20px;
 
-#container strong {
-  font-size: 20px;
-  line-height: 26px;
 }
-
-#container p {
-  font-size: 16px;
-  line-height: 22px;
-  color: #8c8c8c;
-  margin: 0;
+.c2{
+    font-size:50px;
+   font-weight:400px;
+   padding-right:50px; 
 }
-
-#container a {
-  text-decoration: none;
+.c3{
+    font-size:20px;
+    colour:blue;
+    font-weight:200px;
+    padding:10px 40px 60px 70px;
+    height: 100px;
+    width: 200px;
+}
+.parent{
+    width:500px;
+    height:500px;
+    background-color:black;
+}
+.child1{
+    width:100px;
+    height:100px;
+    background-color:gray;
+}
+.child2{
+    width:100px;
+    height:100px;
+    background-color:blue;
 }
